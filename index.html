@@ -5,40 +5,52 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
-    <title>Sidebar template</title>
+    <title>AdminLTE 2</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 </head>
 
 <body>
-<div class="page-wrapper default-theme toggled">
+<div class="page-wrapper default-theme">
     <header>
+        <div class="brand">
+            <a href="#">
+                <span class="brand-big"><b>Admin</b>LTE</span>
+                <span class="brand-small"><b>A</b>LT</span>
+            </a>
+        </div>
         <nav class="navbar">
             <a href="#" id="pin-sidebar">
-                <i class="fas fa-bars"></i>
+                <i class="fa fa-bars"></i>
             </a>
             <div class="navbar-menu">
                 <ul class="navbar-nav flex-row">
                     <li>
                         <a href="#">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="label label-success">4</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fas fa-bell"></i>
+                            <i class="fa fa-bell-o"></i>
+                            <span class="label label-warning">10</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fas fa-flag"></i>
+                            <i class="fa fa-flag-o"></i>
+                            <span class="label label-danger">9</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="user">
+                            <img src="img/user.jpg" alt="user">
+                            <p>Alexander Pierce</p>
                         </a>
                     </li>
                 </ul>
@@ -47,77 +59,150 @@
     </header>
 
     <aside id="sidebar" class="sidebar-wrapper">
-        <div class="sidebar-content">
-            <div class="sidebar-item sidebar-brand">
-                <a href="#">
-                    <span class="brand-big"><b>Admin</b>LTE</span>
-                    <span class="brand-small"><b>A</b>LT</span>
-                </a>
+        <div class="sidebar-item sidebar-header d-flex flex-nowrap">
+            <div class="user-pic">
+                <img class="" src="img/user.jpg" alt="user">
             </div>
-
-            <div class="sidebar-item sidebar-header d-flex flex-nowrap">
-                <div class="user-pic">
-                    <img class="img-responsive img-rounded" src="img/user.jpg" alt="User picture">
-                </div>
-                <div class="user-info">
-                    <span class="user-name">Jhon
-                        <strong>Smith</strong>
-                    </span>
-                    <span class="user-role">Administrator</span>
-                    <span class="user-status">
-                        <i class="fa fa-circle"></i>
-                        <span>Online</span>
-                    </span>
-                </div>
+            <div class="user-info">
+                 <span class="user-name">
+                     Alexander Pierce
+                 </span>
+                <span class="user-status">
+                     <i class="fa fa-circle"></i>
+                    <span>Online</span>
+                </span>
             </div>
-
-            <div class="sidebar-item sidebar-search">
-                <div>
-                    <div class="input-group">
-                        <input type="text" class="form-control search-menu" placeholder="Search...">
-                        <div class="input-group-append">
-                            <span class="input-group-text">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </span>
-                        </div>
+        </div>
+        <div class="sidebar-item sidebar-search">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search...">
+                <span class="input-group-text"><i class="fa fa-search"></i></span>
+            </div>
+        </div>
+        <div class="sidebar-item sidebar-menu">
+            <ul>
+                <li class="header-menu">
+                    General
+                </li>
+                <li class="sidebar-dropdown">
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i>
+                        <span class="menu-text">Dashboard</span>
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
+                    <div class="sidebar-submenu">
+                        <h3 class="pinned-title">Dashboard</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-circle-o"></i>
+                                    Dashboard 1
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-dashboard"></i>
+                                    <span class="menu-text">Dashboard</span>
+                                    <i class="fa fa-chevron-left"></i>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <h3 class="pinned-title">Dashboard</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-circle-o"></i>
+                                                Dashboard 1
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-circle-o"></i>
+                                                Dashboard 2
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-circle-o"></i>
+                                                Dashboard 2
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-circle-o"></i>
+                                    Dashboard 2
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-
-            <div class=" sidebar-item sidebar-menu">
-                <ul>
-                    <li class="header-menu">
-                        <span>General</span>
-                    </li>
-                    <li class="sidebar-dropdown">
-                        <a href="#">
-                            <i class="fa fa-tachometer-alt"></i>
-                            <span class="menu-text">Dashboard</span>
-                            <span class="badge badge-pill badge-warning">New</span>
-                        </a>
-                        <div class="sidebar-submenu">
-                            <ul>
-                                <li>
-                                    <a href="#">Dashboard 1
-                                        <span class="badge badge-pill badge-success">Pro</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">Dashboard 2</a>
-                                </li>
-                                <li>
-                                    <a href="#">Dashboard 3</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                </li>
+                <li class="sidebar-dropdown">
+                    <a href="#">
+                        <i class="fa fa-dashboard"></i>
+                        <span class="menu-text">Dashboard</span>
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
+                    <div class="sidebar-submenu">
+                        <h3 class="pinned-title">Dashboard</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-circle-o"></i>
+                                    Dashboard 1
+                                </a>
+                            </li>
+                            <li class="sidebar-dropdown">
+                                <a href="#">
+                                    <i class="fa fa-dashboard"></i>
+                                    <span class="menu-text">Dashboard</span>
+                                    <i class="fa fa-chevron-left"></i>
+                                </a>
+                                <div class="sidebar-submenu">
+                                    <h3 class="pinned-title">Dashboard</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-circle-o"></i>
+                                                Dashboard 1
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-circle-o"></i>
+                                                Dashboard 2
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-circle-o"></i>
+                                                Dashboard 2
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-circle-o"></i>
+                                    Dashboard 2
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-folder"></i>
+                        <span class="menu-text">Examples</span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </aside>
 
     <main class="page-content pt-2">
-        <div id="overlay" class="overlay"></div>
 
     </main>
 </div>
