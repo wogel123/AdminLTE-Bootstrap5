@@ -2,9 +2,9 @@
 
 <footer class="main-footer">
     <div>
-        <b>Version</b> 2.4.13
+        <b>Version</b> 2.4.13 Bootstrap 5
     </div>
-    <strong>Copyright © 2014-2019 <a href="https://adminlte.io">AdminLTE</a>.</strong> All rights
+    <strong>Copyright © 2014-2024 <a href="https://adminlte.io" target="_blank">AdminLTE</a></strong>. Update to Bootstrap 5 by <strong><a href="https://wogel123.fr" target="_blank">wogel123</a></strong>. All rights
     reserved.
 </footer>
 
@@ -113,10 +113,11 @@
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="/js/bootstrap.bundle.min.js"></script>
-<script src="/js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/2.4.7/overlayscrollbars.cjs.min.js"></script>
+<script src="/lib/jquery/3.3.1/js/jquery.min.js"></script>
+<script src="/lib/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="/lib/overlayscrollbars/2.4.7/js/overlayscrollbars.min.js"></script>
+<script src="/assets/js/main.js"></script>
+
 
 </body>
 

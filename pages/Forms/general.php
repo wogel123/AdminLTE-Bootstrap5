@@ -177,7 +177,7 @@
                     <div class="input-group input-group-sm mb-3">
                         <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown">
                             Action
-                            <span class="fa fa-caret-down"></span>
+                            <span class="fa fa-caret-down ms-1"></span>
                         </button>
                         <ul class="dropdown-menu">
                             <li><h6 class="dropdown-header">Dropdown header</h6></li>

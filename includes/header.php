@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 2</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/2.4.7/styles/overlayscrollbars.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <title>AdminLTE 2 - BS 5</title>
+    <link rel="stylesheet" href="/lib/bootstrap/5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/fontawesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/lib/overlayscrollbars/2.4.7/css/overlayscrollbars.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.ico" />
 </head>
 
 <body>
@@ -30,30 +30,30 @@
                 <ul class="navbar-nav flex-row">
                     <li>
                         <a href="#">
-                            <i class="fa fa-envelope-o"></i>
+                            <i class="fa-regular fa-envelope"></i>
                             <span class="label label-success">4</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa fa-bell-o"></i>
+                            <i class="fa-regular fa-bell"></i>
                             <span class="label label-warning">10</span>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i class="fa fa-flag-o"></i>
+                            <i class="fa-regular fa-flag"></i>
                             <span class="label label-danger">9</span>
                         </a>
                     </li>
                     <li class="dropdown user-menu">
                         <a href="#" class="dropdown-toggle user" data-bs-toggle="dropdown" >
-                            <img src="/img/user.jpg" class="img-circle">
+                            <img src="/assets/img/user.jpg" class="img-circle">
                             <p>Alexander Pierce</p>
                         </a>
                         <ul class="dropdown-menu">
                             <li class="user-header d-flex flex-column">
-                                <img src="/img/user.jpg" class="img-circle mx-auto">
+                                <img src="/assets/img/user.jpg" class="img-circle mx-auto">
                                 <p>
                                     Alexander Pierce - Web Developer
                                     <small>Member since Nov. 2012</small>
@@ -91,7 +91,7 @@
     <aside id="sidebar" class="sidebar-wrapper" data-overlayscrollbars-initialize>
         <div class="sidebar-item sidebar-header d-flex flex-nowrap">
             <div class="user-pic">
-                <img src="/img/user.jpg" class="img-circle">
+                <img src="/assets/img/user.jpg" class="img-circle">
             </div>
             <div class="user-info">
                  <span class="user-name">
@@ -125,13 +125,13 @@
                         <ul>
                             <li>
                                 <a href="/">
-                                    <i class="fa fa-circle-o"></i>
+                                    <i class="fa-regular fa-circle"></i>
                                     Dashboard v1
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-circle-o"></i>
+                                    <i class="fa-regular fa-circle"></i>
                                     Dashboard v2
                                 </a>
                             </li>
@@ -149,31 +149,31 @@
                         <ul>
                             <li>
                                 <a href="/pages/UI/general.php">
-                                    <i class="fa fa-circle-o"></i>
+                                    <i class="fa-regular fa-circle"></i>
                                     General
                                 </a>
                             </li>
                             <li>
                                 <a href="/pages/UI/labels-badges.php">
-                                    <i class="fa fa-circle-o"></i>
+                                    <i class="fa-regular fa-circle"></i>
                                     Labels & Badges
                                 </a>
                             </li>
                             <li>
                                 <a href="/pages/UI/icons.php">
-                                    <i class="fa fa-circle-o"></i>
+                                    <i class="fa-regular fa-circle"></i>
                                     Icons
                                 </a>
                             </li>
                             <li>
                                 <a href="/pages/UI/buttons.php">
-                                    <i class="fa fa-circle-o"></i>
+                                    <i class="fa-regular fa-circle"></i>
                                     Buttons
                                 </a>
                             </li>
                             <li>
                                 <a href="/pages/UI/modals.php">
-                                    <i class="fa fa-circle-o"></i>
+                                    <i class="fa-regular fa-circle"></i>
                                     Modals
                                 </a>
                             </li>
@@ -191,7 +191,7 @@
                         <ul>
                             <li>
                                 <a href="/pages/forms/general.php">
-                                    <i class="fa fa-circle-o"></i>
+                                    <i class="fa-regular fa-circle"></i>
                                     General elements
                                 </a>
                             </li>
@@ -243,31 +243,31 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-circle-o text-danger"></i>
+                        <i class="fa-regular fa-circle text-danger"></i>
                         <span class="menu-text">Danger</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-circle-o text-info"></i>
+                        <i class="fa-regular fa-circle text-info"></i>
                         <span class="menu-text">Info</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-circle-o text-warning"></i>
+                        <i class="fa-regular fa-circle text-warning"></i>
                         <span class="menu-text">Warning</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-circle-o text-success"></i>
+                        <i class="fa-regular fa-circle text-success"></i>
                         <span class="menu-text">Success</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-circle-o text-primary"></i>
+                        <i class="fa-regular fa-circle text-primary"></i>
                         <span class="menu-text">Primary</span>
                     </a>
                 </li>

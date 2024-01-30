@@ -516,7 +516,7 @@
                     <div class="input-group mb-3">
                         <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown">
                             Action
-                            <span class="fa fa-caret-down"></span>
+                            <span class="fa fa-caret-down ms-1"></span>
                         </button>
                         <ul class="dropdown-menu">
                             <li><h6 class="dropdown-header">Dropdown header</h6></li>
@@ -765,7 +765,7 @@
                     </a>
                     <a class="btn btn-app">
                         <span class="badge bg-danger">531</span>
-                        <i class="fa fa-heart-o"></i> Likes
+                        <i class="fa-solid fa-thumbs-up"></i> Likes
                     </a>
                 </div>
 
