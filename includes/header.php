@@ -154,6 +154,12 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="/pages/UI/labels-badges.php">
+                                    <i class="fa fa-circle-o"></i>
+                                    Labels & Badges
+                                </a>
+                            </li>
+                            <li>
                                 <a href="/pages/UI/icons.php">
                                     <i class="fa fa-circle-o"></i>
                                     Icons
@@ -174,19 +180,97 @@
                         </ul>
                     </div>
                 </li>
+                <li class="sidebar-dropdown">
+                    <a>
+                        <i class="fa fa-edit"></i>
+                        <span class="menu-text">Forms</span>
+                        <i class="fa fa-angle-left menu-dropdown"></i>
+                    </a>
+                    <div class="sidebar-submenu">
+                        <h3 class="pinned-title">Forms</h3>
+                        <ul>
+                            <li>
+                                <a href="/pages/forms/general.php">
+                                    <i class="fa fa-circle-o"></i>
+                                    General elements
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
                 <li>
                     <a href="#">
                         <i class="fa fa-folder"></i>
                         <span class="menu-text">Examples</span>
+                        <span class="label bg-danger ms-auto my-auto me-1">14</span>
+                        <span class="label bg-primary my-auto">5</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
                         <i class="fa fa-folder"></i>
                         <span class="menu-text">Examples</span>
+                        <span class="label bg-warning ms-auto my-auto">9</span>
                     </a>
                 </li>
-
+                <li>
+                    <a href="#">
+                        <i class="fa fa-folder"></i>
+                        <span class="menu-text">Examples</span>
+                        <span class="label bg-success ms-auto my-auto">New</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-folder"></i>
+                        <span class="menu-text">Examples</span>
+                        <span class="label bg-success ms-auto my-auto me-1">17</span>
+                        <span class="label bg-danger my-auto me-1">8</span>
+                        <span class="label bg-warning my-auto me-1">5</span>
+                        <span class="label bg-info my-auto">6</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-folder"></i>
+                        <span class="menu-text">Examples</span>
+                        <span class="label bg-purple ms-auto my-auto me-1">Test</span>
+                        <span class="label bg-maroon my-auto me-1">Prod</span>
+                    </a>
+                </li>
+                <li class="header-menu">
+                    LABELS
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-circle-o text-danger"></i>
+                        <span class="menu-text">Danger</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-circle-o text-info"></i>
+                        <span class="menu-text">Info</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-circle-o text-warning"></i>
+                        <span class="menu-text">Warning</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-circle-o text-success"></i>
+                        <span class="menu-text">Success</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-circle-o text-primary"></i>
+                        <span class="menu-text">Primary</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </aside>

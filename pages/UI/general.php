@@ -1,5 +1,4 @@
 <?php include './../../includes/header.php' ?>
-<?php $_SESSION['page'] = "ui-general" ?>
 
 <section class="content-header">
     <h1>
@@ -134,7 +133,6 @@
             </div>
 
         </div>
-
     </div>
     <h2 class="page-header">Alerts and Callouts</h2>
     <div class="row">
